@@ -38,14 +38,6 @@ const Sidebar = () => {
               </div>
             </Link>
           </div>
-          {!userProfile && (
-            <div className="px-2 py-4 hidden xl:block">
-              <p className="text-gray-400">
-                Log in to like and comment on videos
-              </p>
-              <div className="pr-4"></div>
-            </div>
-          )}
           <Discover />
           <SuggestedAccounts />
           <Footer />
